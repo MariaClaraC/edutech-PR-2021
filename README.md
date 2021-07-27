@@ -1,3 +1,3 @@
 # edutech-pr
-repositório para testes
+Repositório de projetos do Edutech
 
