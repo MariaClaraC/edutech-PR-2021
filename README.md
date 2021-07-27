@@ -1,3 +1,3 @@
-# edutech-pra
+# edutech-pr
 repositório para testes
 
