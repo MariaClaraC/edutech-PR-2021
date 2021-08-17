@@ -1,0 +1,65 @@
+<canvas width="600" height="400"></canvas>
+
+<script>
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+
+    pincel.fillStyle = 'grey';
+    pincel.fillRect(0, 0, 600, 400);
+
+        var cores = ['blue','lightblue','red','pink','green','lightgreen','yellow','black','white'];
+        var corAtual = 1;
+        var raio = 10;
+        var mouse = false;
+
+
+    function desenhaCirculo(evento) {
+
+        var x = evento.pageX - tela.offsetLeft;
+        var y = evento.pageY - tela.offsetTop;
+        console.log(x + ',' + y);
+
+
+
+        if (evento.shiftKey && evento.altKey) {
+            alert('Só uma tecla por vez, por favor.');
+
+        } else if (evento.shiftKey && raio + 10 <= 40) {
+            raio = raio + 10;
+        
+            } else if (evento.altKey && raio - 5 >= 10) {
+                raio = raio - 5;
+            }
+
+        if (mouse) {
+                pincel.fillStyle = cores[corAtual];
+                pincel.beginPath();
+                pincel.arc(x, y, 10, 0, 2 * 3.14);
+                pincel.fill();
+            }
+
+    }
+
+    function habilitaDesenho() {
+        mouse = true;
+    }
+    function desabilitaDesenho() {
+        mouse = false;
+    }
+
+
+        function mudarCores() {
+            corAtual++
+
+            if (corAtual >= cores.length) {
+                corAtual = 0;
+            }
+            return false;
+        }
+
+    tela.onmousedown = habilitaDesenho
+    tela.onmouseup = desabilitaDesenho
+    tela.onmousemove = desenhaCirculo;
+    tela.oncontextmenu = mudarCores;
+
+</script>
