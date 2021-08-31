@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+
+<script>
+	function pularLinha() {
+		document.write("<br>");
+	}
+
+	function mostra(texto) {
+		document.write(texto);
+		pularLinha();
+	}
+
+	 alert("Vou descobrir sua ano de idade. Vamos começar?");
+
+	 var idade = prompt("Qual é a sua idade?");
+	 var ano = prompt("Em que ano estamos?");
+	 var total = ano - idade;
+
+	mostra("Você nasceu em " + total);
+
+</script>
