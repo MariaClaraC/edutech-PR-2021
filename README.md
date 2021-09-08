@@ -13,6 +13,5 @@ Repositório onde coloco todos os trabalhos que estou fazendo por eu mesma e os 
 * 🧱 CSS Grid; <!-- 10/08/2021-->
 * 📂 Arquitetura CSS; <!-- 29/08/2021-->
 * 🅱️ BootStrap; <!-- 07/09/2021-->
-<!--* 🔣 Guias de estilo.
-jaja eu acabo ele-->
+* 🔣 Guias de estilo. <!--jaja eu acabo ele-->
 
