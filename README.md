@@ -2,7 +2,9 @@
 <p align="center"> Repositório de projeto da trilha de Front-End do Edutech.</p>
 
 Repositório onde coloco todos os trabalhos que estou fazendo por eu mesma e os sites que estou fazendo nos cursos da [Alura](https://www.alura.com.br/).
+
 Professora: Joice Lima :woman_teacher: :heart:
+
 :comet: Cursos completados (11)
 ------
 
