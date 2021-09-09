@@ -1,0 +1,25 @@
+<meta charset="utf-8">
+	<title> DESAFIO – Estrutura Condicional IF</title>
+	
+<script>
+	function linha() {
+		document.write("<br>");
+	}
+
+	function mostrarTexto(frase) {
+		document.write(frase);
+		linha();
+	}
+
+	var nome = prompt("Informe seu nome.");
+    var idade = parseInt(prompt(nome +", informe sua idade para determinar sua condição de eleitor."));
+
+    if (idade < 16) {
+    	mostrarTexto(nome +", você não tem idade para votar.");
+    }else if (idade >= 16 && idade < 18 || idade >= 70) {
+    	mostrarTexto(nome +", facultativo. Você não é obrigado a votar, mas se quiser, pode.");
+    } else {
+    	mostrarTexto(nome +", é obrigatório votar.");
+    }
+
+</script>

@@ -1,0 +1,26 @@
+<meta charset="utf-8">
+	<title> DESAFIO – Trabalhar operadores, variáveis</title>
+	
+<script>
+    function mostrarTexto(frase){
+	    document.write(frase + "<br>");
+    }
+
+	function mediaCalculada(notaUm, notaDois, notaTres) {
+		var media = notaUm +  notaDois + notaTres;
+        return media;
+
+	}
+
+    alert("Aluno, escreva sua nota do 1ºTrimestre, 2ºTrimestre e 3ºTrimestre e irei informar sua média.");
+
+    var nome = prompt("Primeiramente, informe seu nome para começarmos.");
+    var primeiroTri = parseInt(prompt(nome + ", informe a sua nota do 1ºTrimestre."));
+    var segundoTri = parseInt(prompt(nome + ", informe a sua nota do 2ºTrimestre."));
+    var terceiroTri = parseInt(prompt(nome + ", informe a sua nota do 3ºTrimestre."));
+
+    var media = mediaCalculada(primeiroTri, segundoTri, terceiroTri);
+
+    mostrarTexto(nome + ", como respectivamente suas notas foram " + primeiroTri + ", " + segundoTri + " e " + terceiroTri + "...");
+    mostrarTexto("A sua média é " + media + ".");
+</script>

@@ -1,0 +1,52 @@
+<canvas width="600"  height="400"></canvas>
+
+<script>
+	var tela = document.querySelector('canvas');
+	var pincel = tela.getContext('2d');
+
+	pincel.fillStyle = 'lightgray';
+	pincel.fillRect(0, 0, 600, 400);
+
+	var x = 19;
+	var sentidoInverso = 1;
+
+	function desenhaCirculo(x, y, raio, cor) {
+	    pincel.fillStyle = cor
+		pincel.beginPath();
+		pincel.arc(x, y, raio, 0, 2 * Math.PI);
+		pincel.fill();
+	}
+
+	function limpaTela() {
+		pincel.clearRect(0, 0, 600, 400);
+	}
+
+	function atualizarTela() {
+		limpaTela();
+			if( x > 600) {
+	            sentidoInverso = -1; 
+	        } else if (x < 0) {
+	            sentidoInverso= 1;
+	        } 
+	
+			desenhaCirculo(x+5, 23, 10, '#8cc4de');
+		    desenhaCirculo(x-4, 50, 3, "black");
+		    desenhaCirculo(x-4, 55, 2, "black");
+		    desenhaCirculo(x+4, 50, 3, "black");
+		    desenhaCirculo(x+4, 55, 2, "black");
+		    desenhaCirculo(x-26, 40, 2, "black");
+		    desenhaCirculo(x-15, 40, 10, "yellow");
+		    desenhaCirculo(x-11, 40, 10, "black");
+		    desenhaCirculo(x+5, 39, 12, "yellow");
+		    desenhaCirculo(x-5, 39, 12, "yellow");
+		    desenhaCirculo(x, 39, 9, "black");
+		    desenhaCirculo(x+5, 37, 10, "yellow");
+			desenhaCirculo(x-10, 22, 10, '#ADD8E6');
+		    desenhaCirculo(x, 39, 2, "black");
+		    desenhaCirculo(x+15, 39, 2, "black");
+			x = x + sentidoInverso;
+	    }
+
+	setInterval(atualizarTela, 10);
+
+</script>

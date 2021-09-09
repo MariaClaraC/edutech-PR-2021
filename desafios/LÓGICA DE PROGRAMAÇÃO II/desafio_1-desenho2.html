@@ -1,0 +1,28 @@
+<canvas width="600" height="400"></canvas>
+
+<script>
+	var tela = document.querySelector('canvas');
+	var pincel = tela.getContext('2d');
+
+
+    pincel.fillStyle = '#806c4e';
+        pincel.beginPath();
+        pincel.arc(300, 200, 150, 0, 2 * 3.14);
+        pincel.fill();
+
+
+
+	pincel.fillStyle = 'black';
+    pincel.beginPath();
+    pincel.fillRect(160, 50, 280, 100);
+    pincel.fillRect(120, 100, 350, 50);
+    pincel.fill();
+
+//olhos
+	pincel.fillStyle = 'black';
+        pincel.beginPath();
+	    pincel.fillRect(220, 170, 20, 100);
+	    pincel.fillRect(360, 170, 20, 100);
+	    pincel.fill();
+
+</script>

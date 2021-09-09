@@ -1,0 +1,55 @@
+.produtos {
+	margin: 10px auto;
+	padding: 50px 10px;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 5px 1.5%;
+	padding: 30px 20px;
+	background: var(--cinza-claro);
+
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	color:  var(--bg-rodape);
+}
+
+.produtos li:hover {
+	color:  var(--azul);
+	background: var(--cinza-medio);
+	transition: 0.5s;
+}
+
+.produtos li:active {
+	background: var(--bg-rodape);
+	color:  var(--branco);
+	transition: 0.5s;
+}
+
+.produtos li:active h2 {
+	font-size: 35px;
+	transition: 0.5s;
+	color:  var(--branco);
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.projeto-descricao {
+	font-size: 18px;
+	text-decoration: none;
+}
+
+a:hover {
+	transition: 0.5s;
+}
+
+.imagem {
+	border: 2px solid black;
+}

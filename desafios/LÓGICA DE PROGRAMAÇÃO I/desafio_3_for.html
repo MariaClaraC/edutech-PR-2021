@@ -1,0 +1,22 @@
+<meta charset="utf-8">
+	<title> DESAFIO – WHILE e FOR</title>
+
+	
+<script>
+	function linha() {
+		document.write("<br>");
+	}
+
+	function mostrarTexto(frase) {
+		document.write(frase);
+		linha();
+	}
+   
+var numero = parseInt(prompt("Qual número você quer para a tabuada?"));
+mostrarTexto("Tabuada de " + numero + " :")
+
+for (var num = 0; num <= 10; num++) {
+	mostrarTexto(numero + " X " + num  + " = "+ numero*num);
+}
+
+</script>

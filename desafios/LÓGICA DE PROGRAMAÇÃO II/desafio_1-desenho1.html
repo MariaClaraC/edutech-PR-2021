@@ -1,0 +1,94 @@
+<canvas width="600" height="400"></canvas>
+
+<script>
+	var tela = document.querySelector('canvas');
+	var pincel = tela.getContext('2d');
+//background 
+    	pincel.fillStyle = '#feffed'; 
+	    pincel.fillRect(0, 0, 600, 400);
+        pincel.fill();
+    	pincel.fillStyle = '#fffdde';
+	    pincel.fillRect(0, 70, 600, 400);
+        pincel.fill();
+    	pincel.fillStyle = '#fffccf';
+	    pincel.fillRect(0, 150, 600, 400);
+        pincel.fill();
+    	pincel.fillStyle = '#ffabf';
+	    pincel.fillRect(0, 180, 600, 400);
+        pincel.fill();
+    	pincel.fillStyle = '#fff1b5';
+	    pincel.fillRect(0, 200, 600, 400);
+        pincel.fill();
+    	pincel.fillStyle = '#ffe0a3';
+	    pincel.fillRect(0, 270, 600, 400);
+        pincel.fill();
+    	pincel.fillStyle = '#ffd296';
+	    pincel.fillRect(0, 270, 600, 400);
+        pincel.fill();
+    	pincel.fillStyle = '#ffc08c';
+	    pincel.fillRect(0, 350, 600, 400);
+        pincel.fill();
+
+    	pincel.fillStyle = 'white';
+        pincel.beginPath();
+	    pincel.fillRect(140, 60, 110, 110);
+	    pincel.fillRect(350, 60, 110, 110);
+        pincel.arc(300, 220, 165, 0, 2 * 3.14);
+        pincel.fill();
+
+//orelhas
+    	pincel.fillStyle = '#b8a593';
+	    pincel.fillRect(150, 70, 100, 100);
+	    pincel.fillRect(350, 70, 100, 100);
+        pincel.fill();
+    	pincel.fillStyle = 'white';
+	    pincel.fillRect(160, 90, 100, 100);
+	    pincel.fillRect(340, 90, 100, 100);
+        pincel.fill();
+
+//cabeça
+    pincel.fillStyle = '#b8a593';
+        pincel.beginPath();
+        pincel.arc(300, 220, 160, 0, 2 * 3.14);
+        pincel.fill();
+
+//nariz e boca
+	pincel.fillStyle = 'black';
+		pincel.beginPath();
+		pincel.lineTo(270, 250);
+		pincel.lineTo(300, 270);
+		pincel.lineTo(330, 250);
+		pincel.fill();
+
+        pincel.beginPath();
+	    pincel.arc(310, 300, 10, 0, 2 * 3.14);
+	    pincel.arc(290, 300, 10, 0, 2 * 3.14);
+	    pincel.fill();
+
+    pincel.fillStyle = '#b8a593';
+        pincel.beginPath();
+	    pincel.arc(310, 295, 11, 0, 2 * 3.14);
+	    pincel.arc(290, 295, 11, 0, 2 * 3.14);
+	    pincel.fill();
+
+//blush
+	pincel.fillStyle = 'pink';
+        pincel.beginPath();
+	    pincel.arc(210, 240, 15, 0, 2 * 3.14);
+	    pincel.arc(390, 240, 15, 0, 2 * 3.14);
+	    pincel.fill();
+
+//olhos
+	pincel.fillStyle = 'black';
+        pincel.beginPath();
+	    pincel.arc(220, 220, 15, 0, 2 * 3.14);
+	    pincel.arc(380, 220, 15, 0, 2 * 3.14);
+	    pincel.fill();
+
+	pincel.fillStyle = 'white';
+        pincel.beginPath();
+	    pincel.arc(220, 215, 5, 0, 2 * 3.14);
+	    pincel.arc(380, 215, 5, 0, 2 * 3.14);
+	    pincel.fill();
+
+</script>
