@@ -3,6 +3,8 @@
 
 Repositório onde coloco todos os trabalhos que estou fazendo por eu mesma e os sites que estou fazendo nos cursos da [Alura](https://www.alura.com.br/).
 
+Quer ver o meu progresso? Entre na pasta "Lógica - 1Série do Ensino Médio" para ver todos os trabalhos realizados nos cursos!
+
 Professora: Joice Lima :woman_teacher: :heart:
 
 :comet: Cursos completados (11)
