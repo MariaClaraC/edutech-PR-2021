@@ -7,7 +7,7 @@ Quer ver o meu progresso? Entre na pasta "Lógica - 1Série do Ensino Médio" pa
 
 Professora: Joice Lima :woman_teacher: :heart:
 
-:comet: Cursos completados (11)
+:comet: Cursos completados
 ------
 
 * 🧩 Lógica de programação − I e II; <!-- 17/05/2021 à 23/05/2021-->
