@@ -10,13 +10,14 @@ Professora: Joice Lima :woman_teacher: :heart:
 :comet: Cursos completados
 ------
 
-* 🧩 Lógica de programação − I e II;
-* 💬 HTML5 e CSS3 − I, II, III e IV;
-* 📦 FlexBox;
-* 📱 Layouts responsivos;
-* 🧱 CSS Grid;
-* 📂 Arquitetura CSS; 
-* 🅱️ BootStrap; 
-* 🔣 Guias de estilo.
-* <!--  mais no futuro  -->
+* :jigsaw: Lógica de programação − I e II;
+* :speech_balloon: HTML5 e CSS3 − I, II, III e IV;
+* :package: FlexBox;
+* :iphone: Layouts responsivos;
+* :bricks: CSS Grid;
+* :open_file_folder: Arquitetura CSS; 
+* :b: BootStrap; 
+* :symbols: Guias de estilo;
+* :atom: HTTP: Entendendo a web por baixo dos panos;
+* e mais no futuro!
 
