@@ -18,6 +18,7 @@ Professora: Joice Lima :woman_teacher: :heart:
 * :open_file_folder: Arquitetura CSS; 
 * :b: BootStrap; 
 * :symbols: Guias de estilo;
+  * VSCode: Dicas e truques;
 * :atom: HTTP: Entendendo a web por baixo dos panos;
 * e mais no futuro!
 
