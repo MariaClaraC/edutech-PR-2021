@@ -20,6 +20,6 @@ Professora: Joice Lima :woman_teacher: :heart:
 * :symbols: Guias de estilo;
   * VSCode: Dicas e truques;
 * :atom: HTTP: Entendendo a web por baixo dos panos;
-* :blue_square: JavaScript: Programando na linguagem da web - 18%;
+* :blue_square: JavaScript: Programando na linguagem da web - 22%;
 * e mais no futuro!
 
