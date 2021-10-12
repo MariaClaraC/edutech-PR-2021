@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabuada</title>
+</head>
+
+<body>
+    <ul>
+        <li class="convidado">
+            Nome <span class="nome">Douglas</span>,
+            idade <span class="idade">23</span>
+        </li>
+        <li class="convidado">
+            Nome <span class="nome">Daniel</span>,
+            idade <span class="idade">42</span>
+        </li>
+        <li class="convidado">
+            Nome <span class="nome">Marcos</span>,
+            idade <span class="idade">27</span>
+        </li>
+        <li class="convidado">
+            Nome <span class="nome">Flávio</span>,
+            idade <span class="idade">18</span>
+        </li>
+        Total das idades: <span class="total"></span>
+    </ul>
+
+    <script>
+        // var itens = document.querySelectorAll('.convidado');
+        // var totalDasIdades = 0;
+
+        // for (var i = 0; i < itens.length; i++) {
+        //     var idade = itens[i].querySelector('.idade').textContent;
+        //     totalDasIdades += parseInt(idade);
+        // }
+        // document.querySelector('.total').textContent = totalDasIdades;
+
+
+        function ListaConvidados() {
+            var itens = document.querySelectorAll('.convidado');
+            var convidados = [];
+
+            for(var i = 0; i < itens.length; i++) {
+
+                var convidado = {
+                    nome:  itens[i].querySelector('.nome').textContent,
+                    idade: parseInt(itens[i].querySelector('.idade').textContent)
+                };
+
+            convidados.push(convidado);
+            };
+
+            return convidados;
+        }
+
+        function calculaIdades(convidados) {
+            var total = 0;
+            for (var x = 0; x < convidados.length; x++) {
+                total+=convidados[x].idade;
+            }
+            return total;
+        }
+        
+        function totalIdades(total) {
+            document.querySelector(".total").textContent = total;
+        }
+        
+        var convidados = ListaConvidados();
+        var idadesTotal = calculaIdades(convidados);
+        totalIdades(idadesTotal);
+
+    </script>
+</body>
+
+</html>

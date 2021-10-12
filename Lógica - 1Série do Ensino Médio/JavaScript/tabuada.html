@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabuada</title>
+</head>
+<body>
+
+    <button class="botao">Calcula</button>
+    <input class="numero">
+    <input class="tabuada">
+    <span class="resultado"></span>
+
+        <script>
+            function pegaElemento(selector) {
+                return document.querySelector(selector);
+            }
+        
+            function calculoTabuada(numero, tabuada) {
+                return numero * tabuada;
+            }
+        
+            var botao = pegaElemento('.botao');
+            var numero = pegaElemento('.numero');
+            var tabuada = pegaElemento('.tabuada');
+            var resultado = pegaElemento('.resultado');
+        
+            botao.addEventListener('click', function() {
+                resultado.textContent = calculoTabuada(numero.value, tabuada.value);
+        
+            });
+
+        </script>
+    </body>
+</html>
