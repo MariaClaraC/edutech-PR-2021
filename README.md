@@ -12,7 +12,7 @@ Repositório onde coloco todos os trabalhos que estou fazendo por eu mesma e os 
 
 Quer ver o meu progresso? Entre na pasta "Lógica - 1Série do Ensino Médio" para ver todos os trabalhos realizados nos cursos!
 
-Professora:  @JoiceSiqueiraLima :woman_teacher: :heart:
+Professora:  <a href="https://github.com/profJoice">@JoiceSiqueiraLima</a></p> :woman_teacher: :heart:
 
 :comet: Cursos completados
 ------
