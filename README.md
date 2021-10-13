@@ -8,11 +8,11 @@
 
 <p align="center"><b> Repositório de projeto da trilha de Front-End do Edutech. </b></p>
 
-Repositório onde coloco todos os trabalhos que estou fazendo por eu mesma e os sites que estou fazendo nos cursos da [Alura](https://www.alura.com.br/).
+Repositório onde coloco todos os trabalhos e sites que estou fazendo nos cursos da [Alura](https://www.alura.com.br/).
 
 Quer ver o meu progresso? Entre na pasta "Lógica - 1Série do Ensino Médio" para ver todos os trabalhos realizados nos cursos!
 
-Professora:  <a href="https://github.com/profJoice">@JoiceSiqueiraLima</a></p> :woman_teacher: :heart:
+:woman_teacher: Professora:  <a href="https://github.com/profJoice">@JoiceSiqueiraLima</a></p> 
 
 :comet: Cursos completados
 ------
