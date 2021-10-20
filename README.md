@@ -30,7 +30,7 @@ Quer ver o meu progresso? Entre na pasta "Lógica - 1Série do Ensino Médio" pa
 * :atom: HTTP: Entendendo a web por baixo dos panos;
 * :blue_square: JavaScript: Programando na linguagem da web;
 * :children_crossing: Acessibilidade web parte 1: tornando seu front-end inclusivo;
-<!-- * :children_crossing: Acessibilidade web parte 2: Componentes acessíveis com um pouco de JavaScript;
+* :children_crossing: Acessibilidade web parte 2: Componentes acessíveis com um pouco de JavaScript;
 * :globe_with_meridians: HTTP: Entendendo a web por baixo dos panos;
 * :vs: Vetores e Animação com SVG: Trabalhando com CSS e JavaScript
 * :u7533: Front-end: Projeto de conclusão;-->
