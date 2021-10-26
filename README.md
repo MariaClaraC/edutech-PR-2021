@@ -33,7 +33,7 @@ Quer ver o meu progresso? Entre na pasta "Lógica - 1Série do Ensino Médio" pa
 * :children_crossing: Acessibilidade web parte 2: Componentes acessíveis com um pouco de JavaScript;
 * :globe_with_meridians: HTTP: Entendendo a web por baixo dos panos;
 * :vs: Vetores e Animação com SVG: Trabalhando com CSS e JavaScript
-* :u7533: Front-end: Projeto de conclusão;-->
+* :u7533: Front-end: Projeto de conclusão;
 * e mais no futuro!
 
 #
