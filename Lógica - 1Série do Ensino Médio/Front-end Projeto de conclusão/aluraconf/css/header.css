@@ -1,0 +1,84 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+}
+
+.cabecalho {
+    background: url('../img/destaque.jpeg') no-repeat;
+    background-size: cover;
+    padding: 2rem;
+}
+  
+.cabecalho-menu {
+    text-align: center;
+}
+
+.cabecalho-item {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.cabecalho-item a {
+    color: #fcffff;
+    text-decoration: none;
+    padding: 1rem;
+    background-color: #ffffff2f;
+    border-radius: .5rem;
+    transition: 0.5s;
+}
+
+.cabecalho-item a:hover {
+    background-color: #50A3A7;
+}
+
+.container-titulo {
+    text-align: center;
+    padding: 0 0 .5rem 0;
+}
+
+.painel-principal{
+    text-shadow: 0 4px 9px black;
+  }
+
+.titulo-principal {
+    padding-top: 2rem;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #fcffff;
+}
+
+.sub-titulo {
+    padding-top: .9rem;
+    padding-bottom: 2rem;
+    font-size: 2.3rem;
+    font-weight: bolder;
+    margin-top: 8px;
+    color: #76FF40;
+}
+
+.button {
+    background-color: #48A3A6;
+    color: white;
+    display: inline-block;
+    padding: 1.5625rem 3.125rem;
+    margin: 0.31rem;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0 2px 3px #0000007e;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.5s;
+  }
+
+.button:hover {
+    background-color: #76FF40;
+    font-size: 19px;
+}
+
+@media(min-width: 650px) {
+
+    .container-titulo {
+        font-size: 28px;
+    }
+
+}

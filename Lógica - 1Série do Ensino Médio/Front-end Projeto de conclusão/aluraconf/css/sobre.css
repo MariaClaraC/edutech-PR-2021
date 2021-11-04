@@ -1,0 +1,23 @@
+.container-sobre {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.titulo-sobre {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.sub-titulo-sobre {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.container-sobre .descricao-sobre {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2rem;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}

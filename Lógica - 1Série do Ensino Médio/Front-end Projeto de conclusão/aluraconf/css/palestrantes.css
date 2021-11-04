@@ -1,0 +1,53 @@
+.container-palestrantes {
+    background: #EF7247;
+    text-align: center;
+}
+
+.titulo-palestrantes {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1.5rem;
+    color: white;
+}
+
+.sub-titulo-palestrantes {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.grupo-palestrantes {
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cartão-palestrante {
+
+    background-color: white;
+    padding: 1.25rem;
+    width: 14rem;
+    border-radius: 10px;
+    margin: 0 16px 32px 0;
+}
+
+.imagem-palestrante{
+    border-radius: 50%;
+}
+
+.nome-palestrante {
+    padding: 1rem 0;
+}
+
+.bio-palestrante {
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+
+.frase-palestrante {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8rem;
+    line-height: 1.5rem;
+}
