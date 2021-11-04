@@ -34,6 +34,6 @@ Quer ver o meu progresso? Entre na pasta "Lógica - 1Série do Ensino Médio" pa
 * :globe_with_meridians: HTTP: Entendendo a web por baixo dos panos;
 * :vs: Vetores e Animação com SVG: Trabalhando com CSS e JavaScript
 * :u7533: Front-end: Projeto de conclusão;
-* e mais no futuro!
+
 
 #
