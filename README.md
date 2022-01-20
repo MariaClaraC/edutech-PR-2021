@@ -6,11 +6,9 @@
  <img  height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
  <img  height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"/>
 </section>
+<p align="center"><b> Repositório de projeto da trilha de Front-End do Edutech 2021. </b></p>
 
-<p align="center"><b> Repositório de projeto da trilha de Front-End do Edutech. </b></p>
-
-Repositório onde coloco todos os trabalhos e sites que estou fazendo nos cursos da [Alura](https://www.alura.com.br/).
-
+Repositório onde coloquei todos os trabalhos que fiz nos cursos da [**Alura**](https://www.alura.com.br/) em 2021. <br>
 Quer ver o meu progresso? Entre na pasta "Lógica - 1Série do Ensino Médio" para ver todos os trabalhos realizados nos cursos!
 
 :woman_teacher: Professora:  <a href="https://github.com/profJoice">@JoiceSiqueiraLima</a></p> 
@@ -35,5 +33,23 @@ Quer ver o meu progresso? Entre na pasta "Lógica - 1Série do Ensino Médio" pa
 * :vs: Vetores e Animação com SVG: Trabalhando com CSS e JavaScript
 * :u7533: Front-end: Projeto de conclusão;
 
-
 #
+:comet:  Projetos
+------
+
+<details> <summary> :steam_locomotive: Serralheiria São Luís </summary>
+  <article>
+    <a href="https://github.com/MariaClaraC/Serralheria">
+     Clique aqui para ir ao repositório.
+    </a>
+  </article>
+</details>
+
+<details> <summary> :foggy: Blue Form </summary>
+  <article>
+    <a href="https://github.com/MariaClaraC/Blue-Form">
+     Clique aqui para ir ao repositório.
+    </a>
+  </article>
+</details>
+
