@@ -1,4 +1,4 @@
-<h1 align="center"><b>Edutech-pr</b></h1>
+<h1 align="center"><b>Edutech-PR | Front-End</b></h1>
 
 <section align="center">
  <img  height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
